@@ -1,0 +1,116 @@
+
+
+html {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: hsl(223, 47%, 23%);;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+/* CARD - COMPONENT */
+
+.card {
+    background-color: #fff;
+    width: 450px;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+/* MAIN IMAGE */
+.illustration {
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* ORDER SUMMARY & PARAGRAPH */
+.order {
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    margin: auto;
+    width: 70%;
+    
+}
+
+/* PLAN INFO & PRICE */
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    display: inline-block;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.subscription {
+    display: inline-block;
+    margin: 0 5rem 0 1rem;
+    vertical-align: middle;
+}
+
+.annual {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.change {
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+/* BUTTON */
+button {
+    border: none;
+    border-radius: 1rem;
+    display: block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem auto;
+    padding: 0.8rem;
+    width: 80%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 0 10px 10px hsl(225, 100%, 94%);
+}
+
+.cancel {
+    background-color: #fff;
+    color: hsl(224, 23%, 55%);
+}
+
+
+@media (max-width: 375px) {
+
+.attribution {
+    display: none;
+}
+
+}
